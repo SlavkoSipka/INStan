@@ -13,6 +13,7 @@ import HDFLasonitPage from './pages/HDFLasonitPage';
 import MDFPage from './pages/MDFPage';
 import AboutPage from './pages/AboutPage';
 import WorkSurfacesPage from './pages/WorkSurfacesPage';
+import ProjectPage from './pages/ProjectPage';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -84,6 +85,8 @@ function App() {
         return <AboutPage navigateToPage={navigateToPage} />;
       case 'work-surfaces':
         return <WorkSurfacesPage navigateToPage={navigateToPage} />;
+      case 'o-projektu':
+        return <ProjectPage navigateToPage={navigateToPage} />;
       default:
         return (
           <HomePage

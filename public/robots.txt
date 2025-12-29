@@ -49,3 +49,4 @@ Allow: /gallery
 Allow: /contact
 Allow: /about
 Allow: /location
+Allow: /o-projektu

@@ -52,7 +52,17 @@ const Footer: React.FC<FooterProps> = ({ navigateToPage }) => {
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 IN - STAN. Sva prava zadržana. | Sajt izradio <a href="https://aisajt.com" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-400 transition-colors">aisajt.com</a></p>
+          <p className="mb-2">
+            &copy; 2025 IN - STAN. Sva prava zadržana. | Website by <a href="https://aisajt.com" className="text-orange-500 hover:text-orange-400 transition-colors">AiSajt</a>
+          </p>
+          <p>
+            <button 
+              onClick={() => navigateToPage?.('o-projektu')}
+              className="text-orange-500 hover:text-orange-400 transition-colors underline text-sm"
+            >
+              O projektu
+            </button>
+          </p>
         </div>
       </div>
     </footer>
