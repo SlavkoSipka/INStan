@@ -1,0 +1,51 @@
+User-agent: *
+Allow: /
+
+# Specific crawling instructions for IN-STAN content
+User-agent: *
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://in-stan.rs/sitemap.xml
+
+# Specific rules for search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Block access to admin areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /api/
+
+# Allow important files
+Allow: /sitemap.xml
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.webp$
+Allow: /*.svg$
+# Additional important pages for IN-STAN
+Allow: /services
+Allow: /gallery
+Allow: /contact
+Allow: /about
+Allow: /location
