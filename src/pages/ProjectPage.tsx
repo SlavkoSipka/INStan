@@ -246,7 +246,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ navigateToPage }) => {
               </p>
               <p className="text-gray-600 leading-relaxed">
                 Implementacija je urađena uz pažljivo planiranje svakog aspekta - od dizajna do 
-                tehničke optimizacije. Saradnja sa <a href="https://aisajt.com/izrada-sajtova" className="text-orange-500 hover:text-orange-600 underline">agencijom za izradu web sajtova</a> 
+                tehničke optimizacije. Saradnja sa <a href="https://aisajt.com/izrada-sajta-cena" className="text-orange-500 hover:text-orange-600 underline">agencijom za izradu web sajtova</a> 
                 omogućila je da se projekat realizuje sa fokusom na dugoročne rezultate i održivost. 
                 Sajt je sada spreman da služi kao efikasna online platforma za IN-STAN stolariju, 
                 pomažući kompaniji da privuče nove klijente i proširi svoju online prisutnost.
