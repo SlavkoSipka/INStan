@@ -15,13 +15,13 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ navigateToPage }) => {
       title: "Pravolinijsko sečenje",
       description: "Precizno pravolinijsko sečenje materijala pomoću najsavremenijih mašina za profesionalne rezultate.",
       icon: Saw,
-      image: "https://aislike.rs/panic/a22-min.jpg"
+      image: "/images/a22-min.jpg"
     },
     {
       title: "Krivolinijsko sečenje",
       description: "Složeno krivolinijsko sečenje za kreiranje jedinstvenih oblika i dizajna po vašoj želji.",
       icon: Scissors,
-      image: "https://aislike.rs/panic/krivo.jpg"
+      image: "/images/krivo.jpg"
     },
     {
       title: "Izrada namestaja po meri",
@@ -33,13 +33,13 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ navigateToPage }) => {
       title: "CNC usluge bušenja i sečenja",
       description: "Najsavremenija CNC tehnologija za precizno bušenje i sečenje sa milimetarskom tačnošću.",
       icon: Settings,
-      image: "https://aislike.rs/panic/a24-min.jpg"
+      image: "/images/a24-min.jpg"
     },
     {
       title: "Kantovanje",
       description: "Profesionalno kantovanje ivica (pravolinisko/krivolinisko) za savršen završetak i dugotrajnost nameštaja.",
       icon: Layers,
-      image: "https://aislike.rs/panic/ivica.jpg"
+      image: "/images/ivica.jpg"
     }
   ];
 
@@ -84,7 +84,7 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ navigateToPage }) => {
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         }`}
         style={{
-          backgroundImage: `url('https://aislike.rs/panic/s.jpg')`,
+          backgroundImage: `url('/images/s.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'

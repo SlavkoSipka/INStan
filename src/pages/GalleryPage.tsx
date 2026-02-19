@@ -26,43 +26,43 @@ const GalleryPage: React.FC<GalleryPageProps> = ({ navigateToPage }) => {
 
   // Generate all gallery images (1-52)
   const existingGalleryImages = Array.from({ length: 52 }, (_, i) => 
-    `https://aislike.rs/panic/${i + 1}-min.jpg`
+    `/images/${i + 1}-min.jpg`
   );
 
   // Homepage gallery images (a1, a3, a6, etc.)
   const homepageGalleryImages = [
-    'https://aislike.rs/panic/a1-min.jpg',
-    'https://aislike.rs/panic/a3-min.jpg',
-    'https://aislike.rs/panic/a6-min.jpg',
-    'https://aislike.rs/panic/a8-min.jpg',
-    'https://aislike.rs/panic/a9-min.jpg',
-    'https://aislike.rs/panic/a10-min.jpg',
-    'https://aislike.rs/panic/a13-min.jpg',
-    'https://aislike.rs/panic/a14-min.jpg',
-    'https://aislike.rs/panic/a15-min.jpg',
-    'https://aislike.rs/panic/a16-min.jpg',
-    'https://aislike.rs/panic/a17-min.jpg',
-    'https://aislike.rs/panic/a19-min.jpg',
-    'https://aislike.rs/panic/a20-min.jpg',
-    'https://aislike.rs/panic/a21-min.jpg',
-    'https://aislike.rs/panic/a26-min.jpg',
-    'https://aislike.rs/panic/a27-min.jpg',
-    'https://aislike.rs/panic/a28-min.jpg',
-    'https://aislike.rs/panic/a29-min.jpg',
-    'https://aislike.rs/panic/a33-min.jpg',
-    'https://aislike.rs/panic/a34-min.jpg',
-    'https://aislike.rs/panic/a36-min.jpg',
-    'https://aislike.rs/panic/a38-min.jpg',
-    'https://aislike.rs/panic/a40-min.jpg',
-    'https://aislike.rs/panic/a41-min.jpg',
-    'https://aislike.rs/panic/a42-min.jpg',
-    'https://aislike.rs/panic/a44-min.jpg',
-    'https://aislike.rs/panic/a45-min.jpg',
-    'https://aislike.rs/panic/a46-min.jpg',
-    'https://aislike.rs/panic/a48-min.jpg',
-    'https://aislike.rs/panic/a49-min.jpg',
-    'https://aislike.rs/panic/a50-min.jpg',
-    'https://aislike.rs/panic/a52-min.jpg'
+    '/images/a1-min.jpg',
+    '/images/a3-min.jpg',
+    '/images/a6-min.jpg',
+    '/images/a8-min.jpg',
+    '/images/a9-min.jpg',
+    '/images/a10-min.jpg',
+    '/images/a13-min.jpg',
+    '/images/a14-min.jpg',
+    '/images/a15-min.jpg',
+    '/images/a16-min.jpg',
+    '/images/a17-min.jpg',
+    '/images/a19-min.jpg',
+    '/images/a20-min.jpg',
+    '/images/a21-min.jpg',
+    '/images/a26-min.jpg',
+    '/images/a27-min.jpg',
+    '/images/a28-min.jpg',
+    '/images/a29-min.jpg',
+    '/images/a33-min.jpg',
+    '/images/a34-min.jpg',
+    '/images/a36-min.jpg',
+    '/images/a38-min.jpg',
+    '/images/a40-min.jpg',
+    '/images/a41-min.jpg',
+    '/images/a42-min.jpg',
+    '/images/a44-min.jpg',
+    '/images/a45-min.jpg',
+    '/images/a46-min.jpg',
+    '/images/a48-min.jpg',
+    '/images/a49-min.jpg',
+    '/images/a50-min.jpg',
+    '/images/a52-min.jpg'
   ];
 
   // Combine all images - existing first, then homepage gallery images

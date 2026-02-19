@@ -90,7 +90,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ navigateToPage }) => {
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}
       style={{
-        backgroundImage: `url('https://aislike.rs/panic/e.webp')`,
+        backgroundImage: `url('/images/e.webp')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'

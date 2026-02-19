@@ -75,7 +75,7 @@ const MDFPage: React.FC<MDFPageProps> = ({ navigateToPage }) => {
 
   const handleImageClick = (product: any, index: number) => {
     setSelectedImage({
-      src: `https://aislike.rs/panic/${product.image}`,
+      src: `/images/${product.image}`,
       alt: product.name,
       index: startIndex + index
     });
@@ -88,7 +88,7 @@ const MDFPage: React.FC<MDFPageProps> = ({ navigateToPage }) => {
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}
       style={{
-        backgroundImage: `url('https://aislike.rs/panic/e.webp')`,
+        backgroundImage: `url('/images/e.webp')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
@@ -186,7 +186,7 @@ const MDFPage: React.FC<MDFPageProps> = ({ navigateToPage }) => {
             >
               <div className="relative h-32 sm:h-40 md:h-64 overflow-hidden cursor-pointer" onClick={() => handleImageClick(product, index)}>
                 <img 
-                  src={`https://aislike.rs/panic/${product.image}`}
+                  src={`/images/${product.image}`}
                   alt={product.name}
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                   loading="lazy"

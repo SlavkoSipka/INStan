@@ -182,21 +182,21 @@ const AboutPage: React.FC<AboutPageProps> = ({ navigateToPage }) => {
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
                   <img 
-                    src="https://aislike.rs/panic/a22-min.jpg" 
+                    src="/images/a22-min.jpg" 
                     alt="IN-STAN stolarija radionica 1"
                     className="w-full h-64 object-cover hover:scale-110 transition-transform duration-500"
                   />
                 </div>
                 <div className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
                   <img 
-                    src="https://aislike.rs/panic/a23-min.jpg" 
+                    src="/images/a23-min.jpg" 
                     alt="IN-STAN stolarija radionica 2"
                     className="w-full h-64 object-cover hover:scale-110 transition-transform duration-500"
                   />
                 </div>
                 <div className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
                   <img 
-                    src="https://aislike.rs/panic/a24-min.jpg" 
+                    src="/images/a24-min.jpg" 
                     alt="IN-STAN stolarija radionica 3"
                     className="w-full h-64 object-cover hover:scale-110 transition-transform duration-500"
                   />

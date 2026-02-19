@@ -7,7 +7,7 @@ const LoadingSpinner: React.FC = () => {
         {/* Logo with pulse animation */}
         <div className="mb-8 animate-pulse">
           <img 
-            src="https://aislike.rs/panic/logo.png" 
+            src="/images/logo.png" 
             alt="IN-STAN Logo" 
             className="w-32 h-32 mx-auto object-contain"
           />

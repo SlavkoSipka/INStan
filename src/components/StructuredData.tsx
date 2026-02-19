@@ -6,7 +6,7 @@ const StructuredData: React.FC = () => {
     "@type": "Organization",
     "name": "IN-STAN Stolarija",
     "url": "https://in-stan.rs",
-    "logo": "https://aislike.rs/panic/logo.png",
+    "logo": "/images/logo.png",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+381631125490",

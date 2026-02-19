@@ -23,10 +23,10 @@ function App() {
   const [isInitialLoading, setIsInitialLoading] = useState(true);
 
   const heroImages = [
-    'https://aislike.rs/panic/homepage.webp',
-    'https://aislike.rs/panic/homepage1.jpg',
-    'https://aislike.rs/panic/homepage2.jpg',
-    'https://aislike.rs/panic/homepage3.jpg'
+    '/images/homepage.webp',
+    '/images/homepage1.jpg',
+    '/images/homepage2.jpg',
+    '/images/homepage3.jpg'
   ];
 
   // Initial loading effect

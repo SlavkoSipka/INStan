@@ -9,12 +9,12 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://aislike.rs/panic/logo.png</image:loc>
+      <image:loc>/images/logo.png</image:loc>
       <image:title>IN-STAN Najbolja Stolarija Vrnjačka Banja Logo</image:title>
       <image:caption>IN-STAN - Najbolja stolarija Vrnjačka Banja - nameštaj po meri, kantovanje, CNC obrada</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://aislike.rs/panic/homepage.webp</image:loc>
+      <image:loc>/images/homepage.webp</image:loc>
       <image:title>IN-STAN Najbolja Stolarija Radionica Vrnjačka Banja</image:title>
       <image:caption>IN-STAN - Najbolja profesionalna stolarija u Vrnjačkoj Banji</image:caption>
     </image:image>

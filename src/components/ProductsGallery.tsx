@@ -20,12 +20,12 @@ const ProductsGallery: React.FC<ProductsGalleryProps> = ({ navigateToPage }) => 
 
   // Representative gallery images - only 6 for homepage
   const representativeGalleryImages = [
-    'https://aislike.rs/panic/a1-min.jpg',
-    'https://aislike.rs/panic/a10-min.jpg',
-    'https://aislike.rs/panic/a20-min.jpg',
-    'https://aislike.rs/panic/a29-min.jpg',
-    'https://aislike.rs/panic/a40-min.jpg',
-    'https://aislike.rs/panic/a52-min.jpg'
+    '/images/a1-min.jpg',
+    '/images/a10-min.jpg',
+    '/images/a20-min.jpg',
+    '/images/a29-min.jpg',
+    '/images/a40-min.jpg',
+    '/images/a52-min.jpg'
   ];
 
   // Calculate pagination
@@ -78,7 +78,7 @@ const ProductsGallery: React.FC<ProductsGalleryProps> = ({ navigateToPage }) => 
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         }`}
         style={{
-          backgroundImage: `url('https://aislike.rs/panic/l.webp')`,
+          backgroundImage: `url('/images/l.webp')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'

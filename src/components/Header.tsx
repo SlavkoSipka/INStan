@@ -57,7 +57,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, toggleMenu, currentPage, na
         <div className="flex justify-between items-center">
           <div className="flex items-center cursor-pointer flex-shrink-0" onClick={() => navigateToPage('home')}>
             <img 
-              src="https://aislike.rs/panic/logo.png" 
+              src="/images/logo.png" 
               alt="IN-STAN Logo" 
               className="w-20 h-20 mr-3 object-contain"
             />

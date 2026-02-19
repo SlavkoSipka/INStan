@@ -43,7 +43,7 @@ const LocationPage: React.FC<LocationPageProps> = ({ navigateToPage }) => {
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}
       style={{
-        backgroundImage: `url('https://aislike.rs/panic/lokacija.webp')`,
+        backgroundImage: `url('/images/lokacija.webp')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'

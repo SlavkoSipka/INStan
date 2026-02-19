@@ -64,7 +64,7 @@ const AboutSection: React.FC = () => {
             isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'
           }`}>
             <img 
-              src="https://aislike.rs/panic/a22-min.jpg" 
+              src="/images/a22-min.jpg" 
               alt="Stolarija radionica"
               className="rounded-xl shadow-2xl"
             />

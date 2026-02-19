@@ -35,11 +35,11 @@ const ImageModal: React.FC<ImageModalProps> = ({
     // Extract the number from the original src and create full-size URL
     const match = imageSrc.match(/\/a(\d+)-min\.jpg$/);
     if (match) {
-      fullSizeImageSrc = `https://aislike.rs/panic/a${match[1]}.jpg`;
+      fullSizeImageSrc = `/images/a${match[1]}.jpg`;
     }
   } else if (imageSrc.includes('-min.jpg') && !imageSrc.includes('/a')) {
     // For regular gallery images (1-min.jpg, 2-min.jpg, etc.)
-    fullSizeImageSrc = `https://aislike.rs/panic/${imageIndex + 1}.jpg`;
+    fullSizeImageSrc = `/images/${imageIndex + 1}.jpg`;
   }
 
   const modalContent = (

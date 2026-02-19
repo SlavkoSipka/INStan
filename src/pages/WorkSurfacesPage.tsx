@@ -22,32 +22,32 @@ const WorkSurfacesPage: React.FC<WorkSurfacesPageProps> = ({ navigateToPage }) =
   const workSurfaces = [
     { 
       name: '5157 Quartz 38mm Springdale Travertine', 
-      image: 'https://aislike.rs/panic/Radna ploca 5157 Quartz 38mm Springdale Travertine.jpg', 
+      image: '/images/Radna ploca 5157 Quartz 38mm Springdale Travertine.jpg', 
       description: 'Elegantna kvarc radna ploča sa travertin teksturom' 
     },
     { 
       name: '3164 Quarz 38mm Kinsale Oak', 
-      image: 'https://aislike.rs/panic/Radna ploca 3164 Quarz 38mm Kinsale Oak.jpg', 
+      image: '/images/Radna ploca 3164 Quarz 38mm Kinsale Oak.jpg', 
       description: 'Kvarc radna ploča sa hrast teksturom' 
     },
     { 
       name: '5191 Quartz 38mm Citrine', 
-      image: 'https://aislike.rs/panic/Radna ploca 5191 Quartz 38mm Citrine.jpg', 
+      image: '/images/Radna ploca 5191 Quartz 38mm Citrine.jpg', 
       description: 'Svetla kvarc radna ploča Citrine' 
     },
     { 
       name: '5107 Stone 38mm Silverston Stone', 
-      image: 'https://aislike.rs/panic/Radna ploca 5107 Stone 38mm Silverston Stone.jpg', 
+      image: '/images/Radna ploca 5107 Stone 38mm Silverston Stone.jpg', 
       description: 'Kamena radna ploča Silverston' 
     },
     { 
       name: '3220 Quarz 38mm Eureka Oak', 
-      image: 'https://aislike.rs/panic/Radna ploca 3220 Quarz 38mm Eureka Oak.jpg', 
+      image: '/images/Radna ploca 3220 Quarz 38mm Eureka Oak.jpg', 
       description: 'Kvarc radna ploča Eureka Oak' 
     },
     { 
       name: '3152 Quarz 38mm Alexandria Teak', 
-      image: 'https://aislike.rs/panic/Radna ploca 3152 Quarz 38mm Alexandria Teak.jpg', 
+      image: '/images/Radna ploca 3152 Quarz 38mm Alexandria Teak.jpg', 
       description: 'Kvarc radna ploča Alexandria Teak' 
     }
   ];

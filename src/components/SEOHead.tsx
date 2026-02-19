@@ -14,7 +14,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
   description = "🏆 IN-STAN - Najbolja stolarija u Vrnjačkoj Banji! ✅ Nameštaj po meri ✅ Kantovanje ✅ Rezanje MDF/HDF ✅ CNC obrada ✅ Kuhinje ✅ Spavaće sobe ✅ 20+ godina iskustva ✅ 500+ zadovoljnih klijenata ☎ 063/1125490",
   keywords = "IN-STAN, in stan, in-stan, stolarija vrnjačka banja, najbolja stolarija vrnjačka banja, nameštaj po meri vrnjačka banja, kantovanje vrnjačka banja, rezanje MDF HDF vrnjačka banja, CNC obrada vrnjačka banja",
   canonical = "https://in-stan.rs/",
-  ogImage = "https://aislike.rs/panic/logo.png",
+  ogImage = "/images/logo.png",
   structuredData
 }) => {
   React.useEffect(() => {
